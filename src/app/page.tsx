@@ -471,7 +471,7 @@ export default function Home() {
                 <p className="reveal text-lg font-medium mb-20 leading-[140%] max-[990px]:text-center max-[990px]:mb-10">
                   Klikając na przycisk <span className="font-bold">“Dołącz do Testerów”</span> dołączysz do grona osób mających pełny dostęp do naszej aplikacji <span className="font-bold">całkowicie za darmo.</span> Dodatkowo będziesz w stałym kontakcie z naszą ekipą mając realny wpływ na rozwój aplikacji.
                 </p>
-                <a href="https://tally.so/r/mYeEoz" className="block max-[990px]:mx-auto">
+                <a href="https://tally.so/r/mYeEoz" className="w-fit block max-[990px]:mx-auto">
                   <button className="reveal py-2 px-2.5 pl-8 bg-black rounded-full text-lg font-bold text-white flex items-center justify-center group">
                     <span className="mr-5">Dołącz do Testerów</span>
                     <span className="size-[51px] rounded-full bg-white flex items-center justify-center border-[3px] border-white duration-300 group-hover:bg-[#C7E410]">
