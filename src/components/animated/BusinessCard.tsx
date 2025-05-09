@@ -81,7 +81,7 @@ const BusinessCard = () => {
     }, []);
 
     return (
-        <section className="businessCard" id="businessCard" ref={sectionRef as React.RefObject<HTMLElement>}>
+        <section className="businessCard pb-[60px]" id="businessCard" ref={sectionRef as React.RefObject<HTMLElement>}>
             <div className="container relative overflow-hidden max-[650px]:!px-0">
                 <div className="w-full bg-[#FBFCF3] border-[1px] border-[#C5DB37] rounded-[80px] py-[85px] px-[126px] max-[990px]:rounded-[40px] max-[990px]:py-[60px] max-[990px]:px-[40px] max-[650px]:rounded-none max-[650px]:border-l-0 max-[650px]:border-r-0 max-[650px]:px-7 max-[650px]:py-10 max-[450px]:px-2">
                     <div className="mb-9 text-center">
@@ -93,7 +93,7 @@ const BusinessCard = () => {
                             Nie potrzebujesz juz strony internetowej do prezentowania swoich usług. W fit.expert dostajesz z wizytówkę za darmo z Twoim własnym adresem.
                         </p>
                     </div>
-                    <a href="https://tally.so/r/mYeEoz" className='block mb-[58px] max-[650px]:mb-[42px]'>
+                    <a href="https://tally.so/r/mYeEoz" target="_blank" rel="noopener noreferrer" className='block mb-[58px] max-[650px]:mb-[42px]'>
                         <button className="reveal text-lg font-bold w-[248px] h-[60px] rounded-full bg-[#C7E410] flex items-center justify-center mx-auto border-2 border-[#C7E410] duration-300 hover:bg-transparent">
                             Dołącz do testerów
                             <img src="/icons/arrow-right-white.svg" alt="" className="invert ml-2.5" />
@@ -215,7 +215,6 @@ const BusinessCard = () => {
                         </div>
                     </div>
                 </div>
-                {/* <img src="/images/curvy-line.svg" alt="" className="w-full absolute left-0 bottom-0" /> */}
                 <div className="relative w-full h-auto">
                     {
                         isWide ? (

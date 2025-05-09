@@ -47,8 +47,8 @@ export default function Home() {
       />
       <Header />
 
-      <main>
-        <section className="hero py-[50px] relative mb-[100px] overflow-x-clip max-[650px]:mb-[90px] max-[650px]:py-1" id="hero">
+      <main className="pt-[108px]">
+      <section className="hero py-[50px] relative mb-[100px] overflow-x-clip max-[650px]:mb-[90px] max-[650px]:py-1" id="hero">
           <img src="/images/radial-1.svg" alt="" className="absolute top-2/5 -left-[30%] -translate-y-1/2 -z-10 max-[650px]:max-w-[unset] max-[650px]:w-[800px] max-[650px]:top-[16%] max-[650px]:-left-1/2" />
           <img src="/images/radial-2.svg" alt="" className="absolute -top-[30%] -right-[70%] -translate-y-1/2 -z-10" />
           <div className="container flex items-center max-[990px]:flex-col">
@@ -64,7 +64,7 @@ export default function Home() {
                 Twoja FIT wizytówka online, zarządzanie kalendarzem dostępności, kontrola nad Twoimi podopiecznymi i wiele więcej.
               </p>
               <div className="reveal flex items-center">
-                <a href="https://tally.so/r/mYeEoz" className="mr-[34px] max-[1050px]:mr-[14px] max-[650px]:mr-2">
+                <a href="https://tally.so/r/mYeEoz" target="_blank" rel="noopener noreferrer" className="mr-[34px] max-[1050px]:mr-[14px] max-[650px]:mr-2">
                   <button className="py-2 px-2.5 pl-8 bg-[#C7E410] rounded-full text-lg font-bold flex items-center justify-center group max-[1050px]:pl-[14px] max-[650px]:p-[7px] max-[650px]:pl-5 max-[650px]:text-sm max-[390px]:text-xs">
                     <span className="mr-2.5 max-[390px]:mr-1">Dołącz do Testerów</span>
                     <span className="size-[51px] rounded-full bg-black flex items-center justify-center duration-300 group-hover:bg-white max-[650px]:size-[42px] max-[390px]:size-9">
@@ -72,7 +72,9 @@ export default function Home() {
                     </span>
                   </button>
                 </a>
-                <button className="text-lg font-bold max-[650px]:text-sm text-start max-[390px]:text-xs">Zobacz jak to działa</button>
+                <a href="#instruction" className="text-lg font-bold max-[650px]:text-sm text-start max-[390px]:text-xs">
+                  Zobacz jak to działa
+                </a>
               </div>
             </div>
             <div className="w-3/5 h-[590px] flex justify-center relative max-[1400px]:w-1/2 max-[990px]:w-full max-[650px]:h-fit max-[450px]:w-[130vw] max-[450px]:left-[12%]">
@@ -84,7 +86,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="instruction mb-[150px]" id="instruction">
+        <section className="instruction mb-[120px] pt-[10px]" id="instruction">
           <div className="container">
             <div className="w-full p-20 pb-0 bg-black rounded-[40px] text-center text-white overflow-hidden max-[990px]:py-[61px] max-[990px]:px-[40px] max-[990px]:pb-0 max-[650px]:px-5 max-[650px]:pb-6">
               <h3 className="reveal text-[22px] font-bold mb-[26px] relative z-10 max-[1200px]:text-xl max-[650px]:text-lg max-[650px]:mb-[18px]">Masz 2 minuty?</h3>
@@ -104,7 +106,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mainFunction mb-[237px] max-[650px]:mb-0" id="mainFunction">
+        <section className="mainFunction pt-[30px] mb-[237px] max-[650px]:mb-0" id="mainFunction">
           <div className="container">
             <div className="max-w-[1023px] mb-28 max-[650px]:mb-12">
               <h3 className="reveal text-[22px] font-bold mb-9 max-[1200px]:text-xl max-[650px]:text-lg max-[650px]:mb-6 flex items-center">
@@ -161,7 +163,7 @@ export default function Home() {
                     Określanie lokalizacji usług
                   </li>
                 </ul>
-                <a href="https://tally.so/r/mYeEoz" className="w-fit block max-[650px]:w-full">
+                <a href="https://tally.so/r/mYeEoz" target="_blank" rel="noopener noreferrer" className="w-fit block max-[650px]:w-full">
                   <button className="reveal py-5 px-6 rounded-full border-2 border-[#BBD60F] text-lg font-bold flex items-center duration-300 bg-white hover:bg-[#BBD60F] max-[1200px]:py-4 max-[650px]:w-full max-[650px]:justify-center">
                     Dołącz do testerów
                     <img src="/icons/arrow-right-white.svg" alt="" className="invert ml-2.5" />
@@ -197,7 +199,7 @@ export default function Home() {
                     Manualne przydzielanie pakietów & treningów
                   </li>
                 </ul>
-                <a href="https://tally.so/r/mYeEoz" className="w-fit block max-[650px]:w-full">
+                <a href="https://tally.so/r/mYeEoz" target="_blank" rel="noopener noreferrer" className="w-fit block max-[650px]:w-full">
                   <button className="reveal py-5 px-6 rounded-full border-2 border-[#BBD60F] text-lg font-bold flex items-center duration-300 bg-white hover:bg-[#BBD60F] max-[1200px]:py-4 max-[650px]:w-full max-[650px]:justify-center">
                     Dołącz do testerów
                     <img src="/icons/arrow-right-white.svg" alt="" className="invert ml-2.5" />
@@ -263,7 +265,7 @@ export default function Home() {
                     Synchronizacja z Linktree
                   </li>
                 </ul>
-                <a href="https://tally.so/r/mYeEoz" className="w-fit block max-[650px]:w-full">
+                <a href="https://tally.so/r/mYeEoz" target="_blank" rel="noopener noreferrer" className="w-fit block max-[650px]:w-full">
                   <button className="reveal py-5 px-6 rounded-full border-2 border-[#BBD60F] text-lg font-bold flex items-center duration-300 bg-white hover:bg-[#BBD60F] max-[1200px]:py-4 max-[650px]:w-full max-[650px]:justify-center">
                     Dołącz do testerów
                     <img src="/icons/arrow-right-white.svg" alt="" className="invert ml-2.5" />
@@ -303,7 +305,7 @@ export default function Home() {
                     Lista ulubionych trenerów
                   </li>
                 </ul>
-                <a href="https://tally.so/r/mYeEoz" className="w-fit block max-[650px]:w-full">
+                <a href="https://tally.so/r/mYeEoz" target="_blank" rel="noopener noreferrer" className="w-fit block max-[650px]:w-full">
                   <button className="reveal py-5 px-6 rounded-full border-2 border-[#BBD60F] text-lg font-bold flex items-center duration-300 bg-white hover:bg-[#BBD60F] max-[1200px]:py-4 max-[650px]:w-full max-[650px]:justify-center">
                     Dołącz do testerów
                     <img src="/icons/arrow-right-white.svg" alt="" className="invert ml-2.5" />
@@ -426,7 +428,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <a href="https://tally.so/r/mYeEoz" className="block w-fit mx-auto">
+              <a href="https://tally.so/r/mYeEoz" target="_blank" rel="noopener noreferrer" className="block w-fit mx-auto">
                 <button className="reveal text-lg font-bold w-[248px] h-[60px] rounded-full bg-[#C7E410] flex items-center justify-center border-2 border-[#C7E410] duration-300 hover:bg-transparent">
                   Dołącz do testerów
                   <img src="/icons/arrow-right-white.svg" alt="" className="invert ml-2.5" />
@@ -440,7 +442,7 @@ export default function Home() {
 
         <BusinessCard />
 
-        <section className="opinions pt-[90px] pb-[120px] max-[650px]:pb-5" id="opinions">
+        <section className="opinions pt-[30px] pb-[120px] max-[650px]:pb-5" id="opinions">
           <div className="container">
             <div className="mb-20 text-center max-[650px]:mb-[66px]">
               <h3 className="reveal text-[22px] font-bold mb-9 max-[1200px]:text-xl max-[650px]:text-lg max-[650px]:mb-6">Opinie Testerów</h3>
@@ -451,7 +453,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="faq pt-[91px] pb-[137px] max-[650px]:pb-[52px]" id="faq">
+        <section className="faq pt-[30px] pb-[77px] max-[650px]:pb-[52px]" id="faq">
           <div className="container flex max-[990px]:flex-wrap">
             <div className="w-[48%] pr-10 max-[990px]:w-full max-[990px]:mb-10 max-[990px]:pr-0">
               <div>
@@ -471,7 +473,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="joinTester mb-28" id="joinTester">
+        <section className="pt-[60px] joinTester mb-28" id="joinTester">
           <div className="container">
             <div className="min-h-[600px] py-[63px] px-[91px] rounded-[40px] bg-[#C7E410] flex max-[990px]:py-12 max-[990px]:px-5 max-[650px]:py-7 max-[650px]:px-3.5">
               <div className="w-[calc(100%-559px)] max-[1200px]:w-[calc(100%-450px)] max-[990px]:w-full">
@@ -494,9 +496,9 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="reveal text-lg font-medium mb-20 leading-[140%] max-[990px]:text-center max-[990px]:mb-10">
-                  Klikając na przycisk <span className="font-bold">“Dołącz do Testerów”</span> dołączysz do grona osób mających pełny dostęp do naszej aplikacji <span className="font-bold">całkowicie za darmo.</span> Dodatkowo będziesz w stałym kontakcie z naszą ekipą mając realny wpływ na rozwój aplikacji.
+                  Klikając na przycisk <span className="font-bold">"Dołącz do Testerów"</span> dołączysz do grona osób mających pełny dostęp do naszej aplikacji <span className="font-bold">całkowicie za darmo.</span> Dodatkowo będziesz w stałym kontakcie z naszą ekipą mając realny wpływ na rozwój aplikacji.
                 </p>
-                <a href="https://tally.so/r/mYeEoz" className="w-fit block max-[990px]:mx-auto">
+                <a href="https://tally.so/r/mYeEoz" target="_blank" rel="noopener noreferrer" className="w-fit block max-[990px]:mx-auto">
                   <button className="reveal py-2 px-2.5 pl-8 bg-black rounded-full text-lg font-bold text-white flex items-center justify-center group">
                     <span className="mr-5">Dołącz do Testerów</span>
                     <span className="size-[51px] rounded-full bg-white flex items-center justify-center border-[3px] border-white duration-300 group-hover:bg-[#C7E410]">
