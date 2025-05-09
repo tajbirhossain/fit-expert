@@ -107,7 +107,10 @@ export default function Home() {
         <section className="mainFunction mb-[237px] max-[650px]:mb-0" id="mainFunction">
           <div className="container">
             <div className="max-w-[1023px] mb-28 max-[650px]:mb-12">
-              <h3 className="reveal text-[22px] font-bold mb-9 max-[1200px]:text-xl max-[650px]:text-lg max-[650px]:mb-6">Główne funkcje</h3>
+              <h3 className="reveal text-[22px] font-bold mb-9 max-[1200px]:text-xl max-[650px]:text-lg max-[650px]:mb-6 flex items-center">
+                <img src="/icons/glow-icon.png" alt="" className="mr-1" />
+                Główne funkcje
+              </h3>
               <h2 className="reveal text-[52px] font-black italic uppercase leading-[1] max-[1200px]:text-[44px] max-[650px]:text-[34px]">
                 Oszczędzamy <span className="text-[#B2CC07]">Twój czas <br /></span> i <span className="text-[#B2CC07]">pieniądze</span> prostotą rozwiązań jakie oferujemy
               </h2>
@@ -115,16 +118,20 @@ export default function Home() {
             <div className="flex items-start justify-between mb-[125px] max-[990px]:flex-col max-[650px]:mb-[78px]">
               <div className="w-[53%] max-[990px]:w-full max-[990px]:mb-[26px]">
                 <div className="mb-6 hidden max-[990px]:block">
-                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5">Kalendarz Twoich usług</h3>
+                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5 flex items-center">
+                    <img src="/icons/calender-icon.png" alt="" className="mr-1" />Kalendarz Twoich usług
+                  </h3>
                   <h2 className="reveal text-[34px] font-bold leading-[1] max-[1200px]:text-[30px] max-[650px]:text-2xl">
                     Twórz wygodnie i szybko swoje sloty treningowe – oddaj je w ręce swoich podopiecznych!
                   </h2>
                 </div>
-                <img src="/images/function-image-1.svg" alt="" className="reveal w-full rounded-[30px]" />
+                <img src="/images/function-image-1.png" alt="" className="reveal w-full rounded-[30px]" />
               </div>
               <div className="w-[38%] max-[990px]:w-full">
                 <div className="mb-[34px] block max-[990px]:hidden">
-                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5">Kalendarz Twoich usług</h3>
+                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5 flex items-center">
+                    <img src="/icons/calender-icon.png" alt="" className="mr-1" />Kalendarz Twoich usług
+                  </h3>
                   <h2 className="reveal text-[34px] font-bold leading-[1] max-[1200px]:text-[30px] max-[650px]:text-2xl">
                     Twórz wygodnie i szybko swoje sloty treningowe – oddaj je w ręce swoich podopiecznych!
                   </h2>
@@ -166,7 +173,9 @@ export default function Home() {
             <div className="flex items-start justify-between mb-[125px] max-[990px]:flex-col-reverse max-[650px]:mb-[78px]">
               <div className="w-[38%] max-[990px]:w-full">
                 <div className="mb-[34px] block max-[990px]:hidden">
-                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5">Lista klientów</h3>
+                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5 flex items-center">
+                    <img src="/icons/clipboard-icon.png" alt="" className="mr-1" />Lista klientów
+                  </h3>
                   <h2 className="reveal text-[34px] font-bold leading-[1] max-[1200px]:text-[30px] max-[650px]:text-2xl">
                     Prosty system zarządzania swoimi klientami, który możesz wykorzystać jak chcesz.
                   </h2>
@@ -197,7 +206,9 @@ export default function Home() {
               </div>
               <div className="w-[53%] max-[990px]:w-full max-[990px]:mb-[26px]">
                 <div className="mb-6 hidden max-[990px]:block">
-                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5">Lista klientów</h3>
+                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5 flex items-center">
+                    <img src="/icons/clipboard-icon.png" alt="" className="mr-1" />Lista klientów
+                  </h3>
                   <h2 className="reveal text-[34px] font-bold leading-[1] max-[1200px]:text-[30px] max-[650px]:text-2xl">
                     Prosty system zarządzania swoimi klientami, który możesz wykorzystać jak chcesz.
                   </h2>
@@ -209,7 +220,9 @@ export default function Home() {
             <div className="flex items-start justify-between mb-[125px] max-[990px]:flex-col max-[650px]:mb-[78px]">
               <div className="w-[53%] max-[990px]:w-full max-[990px]:mb-[26px]">
                 <div className="mb-6 hidden max-[990px]:block">
-                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5">Spersonalizowana wizytówka</h3>
+                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5 flex items-center">
+                    <img src="/icons/id-card-icon.png" alt="" className="mr-1" />Spersonalizowana wizytówka
+                  </h3>
                   <h2 className="reveal text-[34px] font-bold leading-[1] max-[1200px]:text-[30px] max-[650px]:text-2xl">
                     Skonfiguruj swoją wizytówkę którą zobaczą Twoi klienci - nie potrzebujesz już strony www.
                   </h2>
@@ -218,7 +231,9 @@ export default function Home() {
               </div>
               <div className="w-[38%] max-[990px]:w-full">
                 <div className="mb-[34px] block max-[990px]:hidden">
-                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5">Spersonalizowana wizytówka</h3>
+                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5 flex items-center">
+                    <img src="/icons/id-card-icon.png" alt="" className="mr-1" />Spersonalizowana wizytówka
+                  </h3>
                   <h2 className="reveal text-[34px] font-bold leading-[1] max-[1200px]:text-[30px] max-[650px]:text-2xl">
                     Skonfiguruj swoją wizytówkę którą zobaczą Twoi klienci - nie potrzebujesz już strony www.
                   </h2>
@@ -260,7 +275,9 @@ export default function Home() {
             <div className="flex items-start justify-between mb-[125px] max-[990px]:flex-col-reverse max-[650px]:mb-[78px]">
               <div className="w-[38%] max-[990px]:w-full">
                 <div className="mb-[34px] block max-[990px]:hidden">
-                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5">Dla Twoich klientów</h3>
+                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5 flex items-center">
+                    <img src="/icons/phone-icon.png" alt="" className="mr-1" />Dla Twoich klientów
+                  </h3>
                   <h2 className="reveal text-[34px] font-bold leading-[1] max-[1200px]:text-[30px] max-[650px]:text-2xl">
                     Aplikacja dla Twoich klientów to wygoda dla nich i dla Ciebie.
                   </h2>
@@ -295,7 +312,9 @@ export default function Home() {
               </div>
               <div className="w-[53%] max-[990px]:w-full max-[990px]:mb-[26px]">
                 <div className="mb-6 hidden max-[990px]:block">
-                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5">Dla Twoich klientów</h3>
+                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5 flex items-center">
+                    <img src="/icons/phone-icon.png" alt="" className="mr-1" />Dla Twoich klientów
+                  </h3>
                   <h2 className="reveal text-[34px] font-bold leading-[1] max-[1200px]:text-[30px] max-[650px]:text-2xl">
                     Aplikacja dla Twoich klientów to wygoda dla nich i dla Ciebie.
                   </h2>
@@ -307,7 +326,9 @@ export default function Home() {
             <div className="flex items-start justify-between mb-[125px] max-[990px]:flex-col max-[650px]:mb-0">
               <div className="w-[53%] max-[990px]:w-full max-[990px]:mb-[26px]">
                 <div className="mb-6 hidden max-[990px]:block">
-                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5">Prosty system płatności</h3>
+                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5 flex items-center">
+                    <img src="/icons/money-icon.png" alt="" className="mr-1" />Prosty system płatności
+                  </h3>
                   <h2 className="reveal text-[34px] font-bold leading-[1] max-[1200px]:text-[30px] max-[650px]:text-2xl">
                     Rozliczaj się z klientami tak jak lubisz. Prywatnie lub on-line.
                   </h2>
@@ -316,7 +337,9 @@ export default function Home() {
               </div>
               <div className="w-[38%] max-[990px]:w-full">
                 <div className="mb-[34px] block max-[990px]:hidden">
-                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5">Prosty system płatności</h3>
+                  <h3 className="reveal w-fit text-lg font-bold py-2.5 px-[18px] bg-[#BBD60F10] border-[1px] border-[#BBD60F] rounded-full mb-5 flex items-center">
+                    <img src="/icons/money-icon.png" alt="" className="mr-1" />Prosty system płatności
+                  </h3>
                   <h2 className="reveal text-[34px] font-bold leading-[1] max-[1200px]:text-[30px] max-[650px]:text-2xl">
                     Rozliczaj się z klientami tak jak lubisz. Prywatnie lub on-line.
                   </h2>
@@ -356,7 +379,9 @@ export default function Home() {
         <section className="additionalFeature pt-[91px] pb-[61px]" id="additionalFeature">
           <div className="container">
             <div className="mb-[102px] text-center max-[650px]:text-start max-[650px]:mb-7">
-              <h3 className="reveal text-[22px] font-bold mb-9 max-[1200px]:text-xl max-[650px]:text-lg max-[650px]:mb-6">Dodatkowe ficzery</h3>
+              <h3 className="reveal text-[22px] font-bold mb-9 max-[1200px]:text-xl max-[650px]:text-lg max-[650px]:mb-6 flex items-center justify-center">
+                <img src="/icons/fire-icon.png" alt="" className="mr-1" />Dodatkowe ficzery
+              </h3>
               <h2 className="reveal text-[52px] font-black italic uppercase leading-[1] max-[1200px]:text-[44px] max-[650px]:text-[34px]">Wszystko co potrzebujesz <br /> w <span className="text-[#B2CC07]">jednym miejscu</span></h2>
             </div>
             <div>
