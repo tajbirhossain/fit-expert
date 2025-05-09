@@ -10,29 +10,34 @@ const Footer = () => {
                         <p className='text-sm font-medium mr-9 max-[1050px]:mr-5 max-[990px]:mr-0 max-[990px]:mb-6'>
                             &copy; 2025 Fit.Expert. Wszystkie prawa zastrzeżone.
                         </p>
-                        <a href="#" className='text-sm font-bold'>Privacy policy</a>
+                        <a href="#" className='text-sm font-bold transition-all duration-300 hover:text-[#B2CC07]'>Privacy policy</a>
                     </div>
                     <div className="flex items-center max-[990px]:flex-col max-[990px]:mb-[100px] max-[650px]:w-full">
                         <img src="/images/logo.svg" alt="" className='hidden mb-[58px] max-[990px]:block max-[650px]:w-[147px]' />
                         <ul className='flex items-center gap-4 mr-8 max-[990px]:gap-[34px] max-[990px]:mr-0 max-[990px]:mb-12'>
-                            <li>
+                            {/* <li>
                                 <a href="#" className='duration-300 opacity-100 hover:opacity-70'>
                                     <img src="/icons/x-logo.svg" alt="" className='max-[990px]:w-8' />
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
-                                <a href="#" className='duration-300 opacity-100 hover:opacity-70'>
-                                    <img src="/icons/instagram-logo.svg" alt="" className='max-[990px]:w-8' />
+                                <a href="https://www.tiktok.com/@app.fit.expert?_t=ZN-8wDguwVFqfW&_r=1" target="_blank" rel="noopener noreferrer" className='duration-300 opacity-100 hover:opacity-70 group'>
+                                <img src="/icons/logo-tiktok.svg" alt="" className='max-[990px]:w-8 transition-transform duration-300 group-hover:scale-110' />
                                 </a>
                             </li>
                             <li>
-                                <a href="#" className='duration-300 opacity-100 hover:opacity-70'>
-                                    <img src="/icons/facebook-logo.svg" alt="" className='max-[990px]:w-8' />
+                                <a href="https://www.instagram.com/app.fit.expert/" target="_blank" rel="noopener noreferrer" className='duration-300 opacity-100 hover:opacity-70 group'>
+                                    <img src="/icons/instagram-logo.svg" alt="" className='max-[990px]:w-8 transition-transform duration-300 group-hover:scale-110' />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/share/12JkdNkCYzB/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className='duration-300 opacity-100 hover:opacity-70 group'>
+                                    <img src="/icons/facebook-logo.svg" alt="" className='max-[990px]:w-8 transition-transform duration-300 group-hover:scale-110' />
                                 </a>
                             </li>
                         </ul>
-                        <a href="https://tally.so/r/mYeEoz" className='block max-[650px]:w-full'>
-                            <button className='py-2.5 px-4 rounded-full bg-black text-sm font-bold text-[#F0F0F0] duration-300 border-2 border-black hover:bg-white hover:text-black max-[990px]:py-4 max-[990px]:px-10 max-[650px]:w-full'>Dołącz do testerów</button>
+                        <a href="https://tally.so/r/mYeEoz" target="_blank" rel="noopener noreferrer" className='block max-[650px]:w-full'>
+                            <button className='py-2.5 px-4 rounded-full bg-black text-sm font-bold text-[#F0F0F0] transition-all duration-300 border-2 border-black hover:bg-white hover:text-black hover:shadow-md max-[990px]:py-4 max-[990px]:px-10 max-[650px]:w-full'>Dołącz do testerów</button>
                         </a>
                     </div>
                 </div>
